@@ -165,6 +165,8 @@ public class ReportRegistrationPanel extends javax.swing.JPanel {
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         jDateChooser1.setEnabled(false);
         jDateChooser2.setEnabled(false);
+        searchTF.setText("");
+        searchTF.setEnabled(true);
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
